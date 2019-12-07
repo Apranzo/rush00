@@ -1,0 +1,16 @@
+html {
+	font-size: 1vw;
+}
+
+.table { width: 100%; display: table; table-layout: fixed; border-spacing: 0.1em; color: #3a6fce}
+.row { width: 100%; display: table-row; }
+
+.col { display: table-cell; text-align: center; vertical-align: middle; padding: 1em 0 1em 0 ; empty-cells: hide; background-color: pink}
+.col.borderRless {border-right: none}
+.col.borderLless {border-left: none}
+.col.borderless {border: none}
+
+h1 {
+	margin: 2vw auto 3vw auto;
+}
+.colspan { position: absolute; width: 100%;}
