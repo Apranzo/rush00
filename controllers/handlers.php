@@ -7,31 +7,15 @@ $user = [
 		id => '1',
 		login => '',
 		paswd => '',
-		roles => [
-			'#id' =>
-			[
-				'type' => 'customer',
-				'busket' => [
-					'content' => '',
-					'cost' => '',
-				],
+		orders =>
 
-				'history' =>
-					[ '#id_order' => 'order'
-
-				] //orders
-			],
-			'#id' => [ 'type' => 'admin' ] //...
-
-		],
-		history => [orders]
 
 	];
 
 
 $order = [
 	'date' => '',
-	'products' => [ id =>, img =>, description => 'asdf'
+	'products' => [ id =>, img =>, description => 'asdf', tag, price
 	],
 	'status' => ''
 ];
@@ -118,7 +102,7 @@ get_products() : массив [0 =>  [ id =>, img =>, description => 'asdf', tag
 
 //		login => '',
 //		paswd => '',
-//		roles => [
+//		orders => [
 //			[
 //				'type' => 'customer',
 //				'busket' => [
